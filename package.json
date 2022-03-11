@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server ./ -c-1 --cors --port 3000",
+    "start": "http-server ./ -c-1 --port 3001 --cors",
     "watch": "nodemon -w src --exec npm run start"
   },
   "keywords": [],
